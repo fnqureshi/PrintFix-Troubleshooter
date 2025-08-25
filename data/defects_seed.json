@@ -1,0 +1,46 @@
+[
+  {
+    "process_name": "Offset",
+    "defects": [
+      "ghosting",
+      "scumming",
+      "hickeys",
+      "streaking",
+      "slurring",
+      "misregister",
+      "ink emulsification"
+    ]
+  },
+  {
+    "process_name": "Flexo",
+    "defects": [
+      "dot gain",
+      "dirty print",
+      "halo",
+      "gear marks",
+      "plate lifting",
+      "foaming ink"
+    ]
+  },
+  {
+    "process_name": "Gravure",
+    "defects": [
+      "streaking",
+      "missing dots/snowflaking",
+      "drag-outs",
+      "cell plugging",
+      "pinholing",
+      "uneven impression"
+    ]
+  },
+  {
+    "process_name": "CWC",
+    "defects": [
+      "washboarding",
+      "flute crush",
+      "crushing/delamination",
+      "uneven ink coverage",
+      "misregister"
+    ]
+  }
+]
