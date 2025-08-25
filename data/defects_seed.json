@@ -1,46 +1,22 @@
 [
   {
-    "process_name": "Offset",
-    "defects": [
-      "ghosting",
-      "scumming",
-      "hickeys",
-      "streaking",
-      "slurring",
-      "misregister",
-      "ink emulsification"
-    ]
+    "id": 1,
+    "name": "Ghosting",
+    "description": "A faint image of a previous print appears on the current print. Often caused by issues with the drum or fuser unit."
   },
   {
-    "process_name": "Flexo",
-    "defects": [
-      "dot gain",
-      "dirty print",
-      "halo",
-      "gear marks",
-      "plate lifting",
-      "foaming ink"
-    ]
+    "id": 2,
+    "name": "Streaks",
+    "description": "Lines or bands of toner running down the page. This can be caused by a damaged drum or a low toner cartridge."
   },
   {
-    "process_name": "Gravure",
-    "defects": [
-      "streaking",
-      "missing dots/snowflaking",
-      "drag-outs",
-      "cell plugging",
-      "pinholing",
-      "uneven impression"
-    ]
+    "id": 3,
+    "name": "Paper Jams",
+    "description": "The paper gets stuck in the printer's pathway. Often caused by worn rollers, incorrect paper type, or moisture."
   },
   {
-    "process_name": "CWC",
-    "defects": [
-      "washboarding",
-      "flute crush",
-      "crushing/delamination",
-      "uneven ink coverage",
-      "misregister"
-    ]
+    "id": 4,
+    "name": "Faded Print",
+    "description": "The text or images are light and difficult to read. This is a classic sign of a low toner or ink cartridge."
   }
 ]

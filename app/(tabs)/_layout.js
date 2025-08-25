@@ -1,1 +1,27 @@
-import React from 'react';import { Tabs } from 'expo-router';import Ionicons from '@expo/vector-icons/Ionicons';export default function TabLayout() {  return (    <Tabs      screenOptions={({ route }) => ({        tabBarIcon: ({ focused, color, size }) => {          let iconName;          if (route.name === 'home') {            iconName = focused ? 'home' : 'home-outline';          } else if (route.name === 'defects') {            iconName = focused ? 'build' : 'build-outline';          }          return <Ionicons name={iconName} size={size} color={color} />;        },        tabBarActiveTintColor: 'blue',        tabBarInactiveTintColor: 'gray',        headerShown: false,      })}    >      <Tabs.Screen        name="home"        options={{          title: 'Home',        }}      />      <Tabs.Screen        name="defects"        options={{          title: 'Defects',        }}      />    </Tabs>  );}
+import React from 'react';
+import { Tabs } from 'expo-router';
+import Ionicons from '@expo/vector-icons/Ionicons';
+
+export default function TabLayout() {
+  return (
+    <Tabs
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ focused, color, size }) => {
+          let iconName;
+          if (route.name === 'home') {
+            iconName = focused ? 'home' : 'home-outline';
+          } else if (route.name === 'defects') {
+            iconName = focused ? 'build' : 'build-outline';
+          }
+          return <Ionicons name={iconName} size={size} color={color} />;
+        },
+        tabBarActiveTintColor: 'blue',
+        tabBarInactiveTintColor: 'gray',
+        headerShown: false,
+      })}
+    >
+      <Tabs.Screen name="home" options={{ title: 'Home' }} />
+      <Tabs.Screen name="defects" options={{ title: 'Defects' }} />
+    </Tabs>
+  );
+}
